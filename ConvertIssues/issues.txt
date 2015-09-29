@@ -140,7 +140,7 @@ Validating EFI_MP_SERVICES_PROTOCOL (Framework)
         EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() ProcContext.Designation for Processor 0 is not EfiCpuBSP.
         Index = 0  ProcContect.Designation = 1818326128.
         The number of enabled processors reported by EFI_MP_SERVICES_PROTOCOL.GetGeneralMPInfo() and EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() are NOT equal. (4 vs 0)
-        EFI_MP_SERVICES_PROTOCOL
+        EFI_MP_SERVICES_PROTOCOL  
 	(BIOS 80.00)
 
 -Component Wireless Module Check : Warning Not installed. (BIOS 00.02, 00.03, 00.04)(Fixed 00.05)
@@ -157,7 +157,7 @@ EFI_MP_SERVICES_PROTOCOL (BIOS 00.03, 00.04, 00.05, 00.06, 00.07, 00.08, 00.09, 
 Altis-G 2B3C WIN 8
 ------------------------------
 
--UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.00)(Fixed with Feature Byte)
+-UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.00)(Fixed with Feature Byte) 
 
 -Factory Mode: ODD Write/Read skips test and is recorded as "Not Available". Test passes in Component Mode. (BIOS 00.13, 00.15, 00.16, 00.17, 00.18, 00.19, 00.20)
 
@@ -212,7 +212,7 @@ Amber2 2B2E WIN 8
 
 
 --------------------------
-Ambrose 22AD WIN 7
+Ambrose 22AD WIN 7 
 --------------------------
 
 -HPWMI Failed Error "e_BIOS_INVALID_COMMAND_TYPE" (BIOS 00.37, 2.22, 2.23, 2.25, 2.27, 2.29, 2.30, 2.32, 2.33)
@@ -243,7 +243,7 @@ Aqua 2B09 WIN 8
 
 -BIOS Check *PI* Not Found (BIOS 00.16, 00.17, 00.18)(Fixed BIOS 00.19)
 
--Audio Playback Test: Speaker Test No audio after restart. *Secure boot enabled/disabled* (BIOS 00.13)
+-Audio Playback Test: Speaker Test No audio after restart. *Secure boot enabled/disabled* (BIOS 00.13) 
 
 -Wireless Module Test: Wireless Module Check: Not installed Recognized in Windows. *Secure boot enabled/disabled* (BIOS 00.13, 00.14)(Fixed BIOS 00.16)
 
@@ -252,10 +252,10 @@ Aqua 2B09 WIN 8
 Archadia 2179 WIN 7
 ------------------------------
 
--HPWMI Failed
+-HPWMI Failed 
 Error "e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.05, 2.08, 2.13, 2.15, 2.16)
 
--BIOS Flash to 2.07 caused computer to flash on screen white, red, green, blue, black, repeat. (BIOS 2.07)
+-BIOS Flash to 2.07 caused computer to flash on screen white, red, green, blue, black, repeat. (BIOS 2.07) 
 
 
 -----------------------------
@@ -269,7 +269,7 @@ Armand3 2AF5 Win 8
 Arondite 18E9 WIN 8
 -----------------------------
 
--HPWMI Failed
+-HPWMI Failed 
 Error "e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.11, 2.12, 2.13, 2.15, 2.16, 2.18)
 
 
@@ -396,7 +396,7 @@ Atayal 802F WIN8
 
 -Factory Mode Touchscreen Test: Test is available is list. System is not a Touchscreen. (BIOS 00.23, 00.24)(Test not present in 5.8.XX)
 
--System will only boot when in Secure boot disabled Legacy Enabled. With Secure boot enabled, system has black screen. Requires CMOS reset to get back to Secure boot disable. (BIOS 00.23)(Fixed BIOS 00.24)
+-System will only boot when in Secure boot disabled Legacy Enabled. With Secure boot enabled, system has black screen. Requires CMOS reset to get back to Secure boot disable. (BIOS 00.23)(Fixed BIOS 00.24) 
 
 -UEFI diagnostics are not able to launch with F2 *Secure boot disabled* EFI Shell works to run UEFI Diagnostics (BIOS 00.23)(Fixed BIOS 00.24)
 
@@ -499,7 +499,7 @@ Batgirl 2215 WIN 7
 
 -Component Video Palette Test: "It appears the UEFI support environment is not installed properly. Please reinstall the softpaq." *Secure boot enabled/disabled* (BIOS 00.13, 00.14)(Fixed 00.16)(BIOS 00.18, 00.19)(Fixed BIOS 00.20)
 
--Component Keyboard Test: With Wireless KB and Mouse All lock keys (Caps Lock, Scroll Lock, Num Lock) cause Keyboard test delay. Test freezes for 20-30 seconds and then continues. *Secure boot enabled* No issue with wired KB and Mouse (BIOS 2.01, 2.03, 2.04, 2.05, 2.07, 2.09)(Fixed 2.10)
+-Component Keyboard Test: With Wireless KB and Mouse All lock keys (Caps Lock, Scroll Lock, Num Lock) cause Keyboard test delay. Test freezes for 20-30 seconds and then continues. *Secure boot enabled* No issue with wired KB and Mouse (BIOS 2.01, 2.03, 2.04, 2.05, 2.07, 2.09)(Fixed 2.10) 
 
 -BIOSCheck *Framework* FAILED (Protocol Error) Processor Context larger than expected.  Trying AMD Adjustment
 *** ERROR ***
@@ -564,7 +564,7 @@ Berlinetta 805F Win 8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.63)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.63)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.63)
 
 -Component Video Memory Test: Failed *Secure boot enabled* Passed with Secure boot disabled. Test passes when video card is removed. (BIOS 00.42, 00.44, 00.45, 00.46, 00.47, 00.48)(VIDEO CARD ISSUE)(Fixed BIOS 00.48)
@@ -599,7 +599,7 @@ Bianchi 807D WIN 8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 2.00)(Fixed BIOS 2.01)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 2.00)(Fixed BIOS 2.01)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 2.00)(Fixed BIOS 2.01)
 
 -BIOSCheck: Failed Network Protocols
@@ -672,7 +672,7 @@ Validating HP Protocols
 
 
 -----------------------
-Blender 339A Win8
+Blender 339A Win8 
 -----------------------
 
 -HPWMI Failed Error "e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.92, 2.93)
@@ -712,16 +712,16 @@ Bulldozer 2B3E WIN 8
 -Component Audio Speaker Test: No Sound. (BIOS 2.21, 2.22)(New Issue with PVT See above)
 
 -Component Audio Record Test: Failed (BIOS 2.21, 2.22)(New Issue with PVT See above)
-
+ 
 -Component Audio Playback: When selected, Audio Test fails before asking for output device. (BIOS 2.09, 2.11, 2.12, 2.14)(New Issue with PVT See above)
-
+ 
 -Component Audio Record: When selected, Audio Test fails before asking for input device. (BIOS 2.09, 2.11, 2.12, 2.14)(New Issue with PVT See above)
-
+ 
 -System cannot launch UEFI Diagnostics from HDD. System will only boot to UEFI Diagnostics through EFI shell. (BIOS 2.09, 2.11)(Fixed 2.12)
 
 -BIOSCheck “Validating Audio Jack Connections Information. Audio Controller UNSUPPORTED on this system!” (BIOS 2.14)
 
--Component Memory Quick Test estimates 35 minutes for testing. Test takes about 20 minutes. Stays at 1 % until two minutes before test finishes. (BIOS 2.14, 2.15)(Fixed 2.16)
+-Component Memory Quick Test estimates 35 minutes for testing. Test takes about 20 minutes. Stays at 1 % until two minutes before test finishes. (BIOS 2.14, 2.15)(Fixed 2.16) 
 
 
 --------------------------------------
@@ -730,7 +730,7 @@ Bunun 802E WIN 8
 
 -HPWMI Test: Windows Error "A problem caused the program to stop working correctly." (BIOS 00.23, 00.24, 00.25, 00.30, 00.51, 00.53, 00.54, 00.55, 00.62, 00.70, 00.71, 00.74, 00.75, 00.76, 00.77)
 
--BIOSCheck DIMM Error:
+-BIOSCheck DIMM Error: 
 *** ERROR ***
         ProtocolCheckStdAlgorithm() EFI_HP_DIMM_ID_PROTOCOL              FAILED (Protocol Error)
 
@@ -851,7 +851,7 @@ Processor Context larger than expected.  Trying AMD Adjustment
 
 
 -BIOSCheck failed Framework:
-
+ 
 Validating EFI_MP_SERVICES_PROTOCOL (Framework)
 
         Processor Context larger than expected.  Trying AMD Adjustment
@@ -860,7 +860,7 @@ Validating EFI_MP_SERVICES_PROTOCOL (Framework)
         EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() ProcContext.Designation for Processor 1 is not EfiCpuAP.
         Index = 1  ProcContect.Designation = -1.
         The number of enabled processors reported by EFI_MP_SERVICES_PROTOCOL.GetGeneralMPInfo() and EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() are NOT equal. (2 vs 0)
-        EFI_MP_SERVICES_PROTOCOL
+        EFI_MP_SERVICES_PROTOCOL 
 	(BIOS 80.01)
 
 -Windows shows date and time format as Day, Month, Year. Should be listed as month, Day, Year. (BIOS 00.12, 00.13, 00.14, 00.15, 00.16, 00.17. 80.00, 80.01)(Fixed with Windows Region Reset)
@@ -890,10 +890,10 @@ Validating EFI_MP_SERVICES_PROTOCOL (Framework)
         Index = 0  ProcContect.Designation = 1818326128.
         The number of enabled processors reported by EFI_MP_SERVICES_PROTOCOL.GetGeneralMPInfo() and EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() are NOT equal. (4 vs 0)
         EFI_MP_SERVICES_PROTOCOL
-
+    
 (BIOS 2.10, 2.11, 2.12, 2.13, 2.14, A0.01, A0.02, A0.03, A0.04, A0.05, A0.06)
 
--BIOS Recovery Failed Readback. "BIOS image did not pass validation." (BIOS 2.10)(Fixed BIOS 2.11)
+-BIOS Recovery Failed Readback. "BIOS image did not pass validation." (BIOS 2.10)(Fixed BIOS 2.11) 
 
 
 -----------------------------------
@@ -1064,7 +1064,7 @@ Corsa 8063 WIN 8
 Cotton 18EA WIN 8
 -------------------------
 
--HPWMI Failed
+-HPWMI Failed 
 Error "e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.03, 2.04, 2.05, 2.06, 2.07, 2.08, 2.09, 2.11, 2.12, 2.13, 2.15)
 
 
@@ -1074,7 +1074,7 @@ Crane WIN 8 2B45
 
 -HPWMI Test: Windows Error "A problem caused the program to stop working correctly." (BIOS 2.16, 2.17, 2.18, 2.19, 2.20, 2.22, 2.23, 2.24, A0.00, A0.01, A0.02, A0.03)
 
-BIOS Check Error:
+BIOS Check Error: 
 
         *** ERROR *** (Type 17): Serial Number string may be duplicated.
 
@@ -1088,8 +1088,8 @@ BIOS Check Error:
 
 
 ---------------------------
-Crusher 2B43 WIN 8
----------------------------
+Crusher 2B43 WIN 8             
+---------------------------  
 
 -HPWMI Test: Windows Error "A problem caused the program to stop working correctly." (BIOS 80.00, 80.01, 80.02, 2.03, 2.04, A0.00, A0.01, A0.02, A0.03, A0.04)
 
@@ -1122,7 +1122,7 @@ Validating HP Protocols
 
 
 -BIOSCheck DIMM Protocol Error:
-
+      
  *** ERROR ***
         ProtocolCheckStdAlgorithm() EFI_HP_DIMM_ID_PROTOCOL              FAILED (Protocol Error)
 
@@ -1137,15 +1137,15 @@ Validating HP Protocols
         EFI_HP_SCREEN_ROTATION_PROTOCOL      *** WARNING - NOT FOUND ***
         EFI_HP_THUNDERBOLT_ACCESS_PROTOCOL   *** WARNING - NOT FOUND ***
 
-(BIOS 00.18, 00.19, 00.20, 00.21)(Fixed 80.00)
-
+(BIOS 00.18, 00.19, 00.20, 00.21)(Fixed 80.00)  
+      
 
 --------------------------
 Cupertino 3 2ABF WIN 7
 --------------------------
 
 -HPWMI Not Supported (DOS screen just flashes)(BIOS 8.17, 8.18, 8.19)
-
+ 
 -Component Network Test Failed. OTN Passes, and Network is available in Windows. *Secure boot enabled* (BIOS 8.19)
 
 
@@ -1178,7 +1178,7 @@ Daisy-G 2B1F WIN 8
 
 ------------------------
 Daisy 2 2B23 WIN 8
-------------------------
+------------------------ 
 
 -BIOS Recovery file specified did not pass validation. (BIOS 00.13)(Fixed BIOS 00.14)(BIOS 00.18, 00.19)(Fixed 00.20)
 
@@ -1282,10 +1282,10 @@ Dino 806E WIN 8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.61, 00.62)(Fixed BIOS 00.63)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.61, 00.62)(Fixed BIOS 00.63)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.61, 00.62)(Fixed BIOS 00.63)
 
--BIOSCHeck DIMM Error:
+-BIOSCHeck DIMM Error: 
 *** ERROR ***
         ProtocolCheckStdAlgorithm() EFI_HP_DIMM_ID_PROTOCOL              FAILED (Protocol Error)
 
@@ -1344,7 +1344,7 @@ Dogwood 2B0B WIN 8
         Index = 3  ProcContect.Designation = -1988626882.
         The number of enabled processors reported by EFI_MP_SERVICES_PROTOCOL.GetGeneralMPInfo() and EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() are NOT equal. (4 vs 3)
         EFI_MP_SERVICES_PROTOCOL                                      - FAILED (Protocol Error)
-	(BIOS 80.04)
+	(BIOS 80.04) 
 
 
 -BIOSCheck *Framework* FAILED (Protocol Error) Processor Context larger than expected.  Trying AMD Adjustment
@@ -1406,7 +1406,7 @@ Dolomite 8056 WIN 8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.62)(Fixed BIOS 00.63)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.62)(Fixed BIOS 00.63)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.62)(Fixed BIOS 00.63)
 
 -System is slow to boot. 2-3 minutes before boot. (BIOS 00.55, 00.56, 00.70)(Fixed 00.57)
@@ -1547,7 +1547,7 @@ Enzo 8062 WIN 8
 
 
 -------------------------------
-Fido 6J 2B34 WIN8
+Fido 6J 2B34 WIN8 
 -------------------------------
 
 -Component Speaker Test: No audio from Speaker. *Secure boot enabled/disabled.* (BIOS 00.18, 80.00)
@@ -1585,7 +1585,7 @@ Edison 3397 Win8
 Excalibur 18E7 WIN8
 -------------------------
 
--HPWMI error "Failed
+-HPWMI error "Failed 
 Error ""e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.21, 2.22, 2.23, 2.24, 2.25, 2.26, 2.27, 2.29, 2.30, 2.31, 2.32, 2.33, 2.34, 2.35, 2.36, 2.53, 2.55, 2.56, 2.57, 2.58, 2.59, 2.60, 2.62, 2.64, 2.65)
 
 
@@ -1642,7 +1642,7 @@ Frodo 1825 WIN8
 Galahad 18E6 WIN8
 -------------------------
 
--HPWMI error "Failed
+-HPWMI error "Failed 
 Error ""e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.21, 2.22, 2.23, 2.24, 2.25, 2.26, 2.27, 2.29, 2.30, 2.31, 2.32, 2.33, 2.34, 2.35, 2.36)
 
 -Failed touch screen test. Screen is Cropped on left and right of screen. Factory mode/Regular testing *secure boot off, pass if secure boot is on. (BIOS 2.02, 2.05, 2.10, 2.11, 2.12, 2.13, 2.14, 2.15, 2.16, 2.17, 2.18, 2.19, 2.20, 2.21, 2.22, 2.23, 2.24, 2.25, 2.26, 2.27, 2.29, 2.30, 2.31, 2.32, 2.33, 2.34, 2.35, 2.36)
@@ -1759,7 +1759,7 @@ Gazelle 805C WIN 8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 92.00, 92.01)(Fixed BIOS 2.00)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 92.00, 92.01)(Fixed BIOS 2.00)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.*  (BIOS 92.00, 92.01)(Fixed BIOS 2.00)
 
 -Component Keyboard Test: Test exhibits latency when Scroll Lock, Num Lock, or Caps Lock are pressed. (BIOS 00.33, 00.34)(Fixed BIOS 00.41)(BIOS 00.57)(Fixed BIOS 00.58)
@@ -1830,7 +1830,7 @@ Gemini 2176 WIN 8.1
 -Video Memory Test: Error message "It appears the UEFI support environment is not installed properly. Please reinstall the softpaq." *Secure boot enabled* 5.4.1.beta1 Passes 5.4.0.0 (BIOS 00.17, 00.18)(Fixed 5.4.1.0)
 
 -Video Palette Test: Error message "It appears the UEFI support environment is not installed properly. Please reinstall the softpaq." *Secure boot enabled* 5.4.1.beta1 Passes 5.4.0.0 (BIOS 00.17, 00.18)(Fixed 5.4.1.0)
-
+ 
 -Audio Playback Test: Line out labeled (Black). Should be labled Line Out (Green) *Secure boot enabled/disabled* (BIOS 00.17)(Fixed 00.18)
 
 -Audio Record Test: Line out labeled (Black). Should be labled Line Out (Green) *Secure boot enabled/disabled* (BIOS 00.17)(Fixed 00.18)
@@ -1872,7 +1872,7 @@ EFI_MP_SERVICES_PROTOCOL (BIOS 00.10, 00.11, 00.12, 00.13, 00.14, 00.16, 00.18, 
 
 -Component Video Memory Test: "Video Memory Check: Failed"" *Secure boot disabled* (BIOS 00.13, 00.14, 00.16)(Fixed BIOS 00.18)
 
--Component Keyboard Test: With Wireless KB and Mouse All lock keys (Caps Lock, Scroll Lock, Num Lock) cause Keyboard test delay. Test freezes for 20-30 seconds and then continues. *Secure boot enabled* No issue with wired KB and Mouse (BIOS 2.01, 2.03, 2.04, 2.05, 2.07, 2.09)(Fixed 2.10)
+-Component Keyboard Test: With Wireless KB and Mouse All lock keys (Caps Lock, Scroll Lock, Num Lock) cause Keyboard test delay. Test freezes for 20-30 seconds and then continues. *Secure boot enabled* No issue with wired KB and Mouse (BIOS 2.01, 2.03, 2.04, 2.05, 2.07, 2.09)(Fixed 2.10) 
 
 -No GUI when booted through shell. (BIOS 00.12, 00.13, 00.14)(Fixed 00.16)
 
@@ -1928,7 +1928,7 @@ Greenwood-E1 2B58
 
 -HPWMI Test: Windows Error "A problem caused the program to stop working correctly." (BIOS 2.01, A0.00, A0.01, A0.02, A0.03, A0.04, A0.05, A.06)
 
--BIOSCheck Dimm Error:
+-BIOSCheck Dimm Error: 
 
         *** ERROR ***
         ProtocolCheckStdAlgorithm() EFI_HP_DIMM_ID_PROTOCOL              FAILED (Protocol Error)
@@ -1956,7 +1956,7 @@ Validating EFI_MP_SERVICES_PROTOCOL (Framework)
         EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() ProcContext.Designation for Processor 0 is not EfiCpuBSP.
         Index = 0  ProcContect.Designation = 1818326128.
         The number of enabled processors reported by EFI_MP_SERVICES_PROTOCOL.GetGeneralMPInfo() and EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() are NOT equal. (2 vs 0)
-        EFI_MP_SERVICES_PROTOCOL
+        EFI_MP_SERVICES_PROTOCOL   
 (BIOS 2.00, 2.01, A0.00, A0.01, A0.02, A0.03, A0.04, A0.06)
 
 
@@ -1981,7 +1981,7 @@ Validating EFI_MP_SERVICES_PROTOCOL (Framework)
 (BIOS 80.09)
 
 -BIOSCheck failed Framework:
-
+ 
 Processor Context larger than expected.  Trying AMD Adjustment
         EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() ProcContext.Designation for Processor 0 is not EfiCpuBSP.
         Index = 0  ProcContect.Designation = 1818326128.
@@ -2021,7 +2021,7 @@ Higgins 17D4 WIN7
 -Video Memory Check: Error message "This test is currently not available on this system." Log records test as "Skipped". *Secure boot on (BIOS 02.62, 2.64, 2.70, 2.71, 2.72, 2.73)(Fixed BIOS 2.75)
 
 -Video Palette: Error message "This test is currently not available on this system." Log records test as "Skipped". *Secure boot on (BIOS 02.62, 2.64, 2.70, 2.71, 2.72, 2.73)(Fixed BIOS 2.75)
-
+ 
 -USB test: Error message "This test is currently not available on this system." Log records test as "Skipped". *Secure boot on (BIOS 02.62, 2.64, 2.70, 2.71, 2.72, 2.73)(Fixed BIOS 2.75)
 
 -Audio test: Error message "This test is currently not available on this system." Log records test as "Skipped" *Secure boot enabled.*Passed with Secure boot disabled. (BIOS 02.62, 2.64, 2.70, 2.71, 2.72, 2.73)(Fixed BIOS 2.75)
@@ -2134,7 +2134,7 @@ JasmineR 2AE0 WIN 8
         EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() ProcContext.Designation for Processor 1 is not EfiCpuAP.
         Index = 1  ProcContect.Designation = 4194304.
         The number of enabled processors reported by EFI_MP_SERVICES_PROTOCOL.GetGeneralMPInfo() and EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() are NOT equal. (2 vs 0)
-        EFI_MP_SERVICES_PROTOCOL (BIOS 80.51)
+        EFI_MP_SERVICES_PROTOCOL (BIOS 80.51)  
 
 -BIOSCheck *Framework* FAILED (Protocol Error) Processor Context larger than expected.  Trying AMD Adjustment
  *** ERROR ***
@@ -2167,7 +2167,7 @@ Joshua 2ADA WIN 8
 
 
 --------------------------
-Kaili 2AF3 WIN8
+Kaili 2AF3 WIN8 
 --------------------------
 
 -HPWMI Failed Windows Error "A problem caused the program to stop working correctly." (BIOS 80.16, 80.17, 80.18, 80.19, 80.20, 80.21, 80.22, 80.23, 80.24)
@@ -2201,7 +2201,7 @@ King Cobra 1850 WIN 8
         EFI_MP_SERVICES_PROTOCOL                                      - FAILED (Protocol Error)
 	(BIOS 2.66, 2.67)
 
--HPWMI error Failed
+-HPWMI error Failed 
 Error "e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.57, 2.59, 2.61, 2.62, 2.65, 2.66, 2.67)
 
 -BIOSCheck *Framework* FAILED (Protocol Error) Processor Context larger than expected.  Trying AMD Adjustment
@@ -2232,7 +2232,7 @@ Lancelot 21F5 WIN 7
 
 -Component Sysytem Board: System Board Check "Device not found." (BIOS 2.06)(Fixed 2.08)
 
--BIOS Recovery failed from USB and HDD. System beeps 8 times, then continues to beep 8 times until powered off. UEFI Firmware Management is able to run the update. *Secure boot enabled/disabled* (BIOS 00.18, 00.19, 00.20, 00.21, 00.22, 00.40, 2.00, 2.01, 2.02, 2.03)(Fixed 2.04)
+-BIOS Recovery failed from USB and HDD. System beeps 8 times, then continues to beep 8 times until powered off. UEFI Firmware Management is able to run the update. *Secure boot enabled/disabled* (BIOS 00.18, 00.19, 00.20, 00.21, 00.22, 00.40, 2.00, 2.01, 2.02, 2.03)(Fixed 2.04) 
 
 -Audio Playback test: “The Audio Test is not supported on this system.” (BIOS 00.11, 00.18, 00.19, 00.20, 00.21, 00.22, 00.40, 2.00, 2.01)(Fixed 5.5.0.0)
 
@@ -2378,7 +2378,7 @@ Luma 2B11 WIN 8.1
 Lupin 2B15 WIN 8.1
 -------------------
 
--BIOSCheck *PI* FAILED  EFI_MP_SERVICES2_PROTOCOL.StartupAllAPs() has not signaled event in 3 seconds after all APs have completed. (BIOS 80.08, 80.09, 80.10,
+-BIOSCheck *PI* FAILED  EFI_MP_SERVICES2_PROTOCOL.StartupAllAPs() has not signaled event in 3 seconds after all APs have completed. (BIOS 80.08, 80.09, 80.10, 
 80.11, 80.13)
 
 -Failed to do BIOS recovery. *secure boot on/off HDD+USB (BIOS 00.06 00.08, 00.09)(00.13 fixed)
@@ -2439,7 +2439,7 @@ Maranello 8061 WIN 8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.64)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.64)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.64)
 
 
@@ -2497,9 +2497,9 @@ Memphis2 2B2C WIN 8
 
 -Component Audio Record Test: Headphone option not present in UEFI diagnostics. (BIOS A0.00, A0.01)(Fixed with Feature Byte)
 
--Front USB ports are not recognized in Windows. The Front USB ports are recognized in Windows in previous BIOS versions (00.06, 00.07). Passes UEFI USB Port Test. Problem only occurs with Front USB ports in Windows.(BIOS 00.08, 00.09, 00.10, 00.11)(Fixed 00.12)
+-Front USB ports are not recognized in Windows. The Front USB ports are recognized in Windows in previous BIOS versions (00.06, 00.07). Passes UEFI USB Port Test. Problem only occurs with Front USB ports in Windows.(BIOS 00.08, 00.09, 00.10, 00.11)(Fixed 00.12)  
 
--UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.00)(Fixed with Feature Byte)
+-UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.00)(Fixed with Feature Byte) 
 
 
 -----------------------------
@@ -2589,7 +2589,7 @@ Mulberry 2 2B29 WIN 8
 -----------------------------
 
 -BIOSCheck failed Framework:
-
+ 
 Processor Context larger than expected.  Trying AMD Adjustment
         EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() ProcContext.Designation for Processor 0 is not EfiCpuBSP.
         Index = 0  ProcContect.Designation = 1818326128.
@@ -2622,18 +2622,18 @@ Nutmeg 2B28 WIN 8
 -BIOSCheck *PI* FAILED:
 EFI_MP_SERVICES2_PROTOCOL.StartupAllAPs() has not signaled event in 3 seconds after all APs have completed. (BIOS 00.10, 00.11, 00.12, 00.13, 00.14, 00.15, 80.00, 80.01, 80.02, 80.03, 80.04, 80.05, 80.06, 80.07, 2.03, 2.04, 2.05, A0.01, A0.02, A0.03, A0.04)
 
--Changing the Date and Time backwards in the BIOS Setup Menu does not affect time and date in Windows. Changing time and date forward in BIOS setup menu changes date and time in Windows. (BIOS 00.10, 00.11, 00.12, 00.13, 00.14, 00.15, 80.00, 80.01, 80.02, 80.03)
+-Changing the Date and Time backwards in the BIOS Setup Menu does not affect time and date in Windows. Changing time and date forward in BIOS setup menu changes date and time in Windows. (BIOS 00.10, 00.11, 00.12, 00.13, 00.14, 00.15, 80.00, 80.01, 80.02, 80.03)   
 
--BIOS Recovery. WIN-B failed to do BIOS Recovery. Passes BIOS Recovery through UEFI Firmware Management. (BIOS 00.10)(Fixed 00.11)
+-BIOS Recovery. WIN-B failed to do BIOS Recovery. Passes BIOS Recovery through UEFI Firmware Management. (BIOS 00.10)(Fixed 00.11) 
 
 
 F
 
--UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS 2.17)(Fixed with Feature Byte)
+-UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS 2.17)(Fixed with Feature Byte) 
 
 -System has no video with Secure boot enabled. Error beep code 3 long, 3 short. (BIOS 2.11, 2.16)(Fixed with Video Card)
 
-
+ 
 -------------------------
 Orchid 2B17 WIN8
 -------------------------
@@ -2656,7 +2656,7 @@ Orchid 2B17 WIN8
 
 -Audio Record Test: Error message "It appears the UEFI support environment is not installed properly. Please reinstall the softpaq." Passes when run USB *Secure boot disabled* only occurs in RAID mode (Bios 00.22, 00.23, 00.24, 00.25, 00.26, 00.27, 00.28, 80.00)(RAID option not Available in BIOS 80.01)(80.04e, 80.07)(Fixed 80.08)
 
--Network Test: Error message "It appears the UEFI support environment is not installed properly. Please reinstall the softpaq." Passes when run USB *Secure boot disabled* only occurs in RAID mode (BIOS 80.07)(Fixed 80.08)
+-Network Test: Error message "It appears the UEFI support environment is not installed properly. Please reinstall the softpaq." Passes when run USB *Secure boot disabled* only occurs in RAID mode (BIOS 80.07)(Fixed 80.08)	
 
 -All ODD Tests: Error message "It appears the UEFI support environment is not installed properly. Please reinstall the softpaq." Passes when run USB *Secure boot disabled* only occurs in RAID mode (Bios 00.22, 00.23, 00.24, 00.25, 00.26, 00.27, 00.28, 80.00)(RAID option not Available in BIOS 80.01)(80.04e, 80.07)(Fixed 80.08)
 
@@ -2685,7 +2685,7 @@ Orchid2 2B35 WIN8
 
 -HPWMI Failed Windows Error "A problem caused the program to stop working correctly."(BIOS 00.14, 00.15, 80.00, 80.01, 80.02, 80.03, 80.04, 80.05, 80.06, 2.01, 2.02, A0.00, A0.01, A0.02, A0.03, A0.04)
 
--BIOS Check: Error
+-BIOS Check: Error        
 *** ERROR *** (Type 17): For each Physical Memory Array, there must be 'Number of Memory Devices' Memory Device structures that map back (via Handle) to the referencing memory array (Type16).
 *** ERROR *** (Type 17): One structure is required for each socketed system-memory device, whether or not the socket is currently populated.
 (BIOS 80.06, 2.01, 2.02, A0.00, A0.01, A0.02, A0.03, A0.04)
@@ -2711,16 +2711,16 @@ Orchid2 2B35 WIN8
 Orchid3 2B52 WIN 8
 -----------------------------------
 
--BIOS Check: Error
+-BIOS Check: Error        
 *** ERROR *** (Type 17): For each Physical Memory Array, there must be 'Number of Memory Devices' Memory Device structures that map back (via Handle) to the referencing memory array (Type16).
 *** ERROR *** (Type 17): One structure is required for each socketed system-memory device, whether or not the socket is currently populated.
-(BIOS 2.08, 2.09, 2.11, A0.00, A0.01, A0.02, A0.03, A0.04, A0.06)
+(BIOS 2.08, 2.09, 2.11, A0.00, A0.01, A0.02, A0.03, A0.04, A0.06) 
 
 -Raid Mode: RAID Option not available in BIOS menu. AHCI and IDE are the only options available. (BIOS 2.08)
 
--RAID Mode: HDD is not recognized: Error "NO HDD Installed. Please check that power and data cables are connected properly" HDD is recognized in AHCI Mode. (BIOS 2.06)
+-RAID Mode: HDD is not recognized: Error "NO HDD Installed. Please check that power and data cables are connected properly" HDD is recognized in AHCI Mode. (BIOS 2.06) 
 
--RAID Mode: ODD is not recognized: Error "NO ODD Installed. Please check that power and data cables are connected properly" ODD is recognized in AHCI Mode. (BIOS 2.06)
+-RAID Mode: ODD is not recognized: Error "NO ODD Installed. Please check that power and data cables are connected properly" ODD is recognized in AHCI Mode. (BIOS 2.06) 
 
 -UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.01)(Fixed with Feature Byte)
 
@@ -2918,7 +2918,7 @@ Saloon 8055 WIN 8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.62)(Fixed BIOS 00.63)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.62)(Fixed BIOS 00.63)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.60, 00.62)(Fixed BIOS 00.63)
 
 -System is slow to boot. 2-3 minutes before boot. (BIOS 00.70, 00.57)(Fixed BIOS 00.58)
@@ -2995,7 +2995,7 @@ Scorpion 8054 WIN8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.61, 00.62)(Fixed BIOS 00.63)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.61, 00.62)(Fixed BIOS 00.63)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.61, 00.62)(Fixed BIOS 00.63)
 
 -Factory Mode Keyboard Test: Right side ALT button is not able to be selected with USB KB. PS/2 KB is able to select ALT on both sides. (BIOS 00.23, 00.24, 00.25, 00.26, 00.27, 00.28, 00.30, 00.31, 00.37, 00.52, 00.53)(Fixed 00.54)
@@ -3021,7 +3021,7 @@ Scorpion 8054 WIN8
 Seabiscuit 2171 WIN7
 -----------------------------
 
--BIOSCheck *Framework* FAILED
+-BIOSCheck *Framework* FAILED        
 	Processor Context larger than expected.  Trying AMD Adjustment
         EFI_MP_SERVICES_PROTOCOL.GetProcessorContext() ProcContext.Designation for Processor 0 is not EfiCpuBSP.
         Index = 0  ProcContect.Designation = 1818326128.
@@ -3030,7 +3030,7 @@ Seabiscuit 2171 WIN7
 	(BIOS 80.06)
 
 -Website URL "www.hp.com/go/techcenter/PCDiags" missing from UEFI main menu. (BIOS 80.05)(Fixed BIOS 80.06)
-
+	
 
 -BIOSCheck *Framework* FAILED (Protocol Error) Processor Context larger than expected.  Trying AMD Adjustment
  *** ERROR ***
@@ -3097,7 +3097,7 @@ Validating EFI_MP_SERVICES_PROTOCOL (Framework)
 Silk 2179 WIN 8
 -------------------------
 
--HPWMI Failed
+-HPWMI Failed 
 Error "e_BIOS_INVALID_COMMAND_TYPE" (BIOS 2.03, 2.04, 2.05, 2.07, 2.08, 2.09, 2.11, 2.12, 2.13, 2.15)
 
 -Failed touch screen test. Screen is Cropped on left and right of screen. Factory mode/Regular testing *secure boot off, pass if secure boot is on. (BIOS 2.07)
@@ -3158,7 +3158,7 @@ SpitFire 8053 WIN8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.61, 00.62)(Fixed BIOS 00.63)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.61, 00.62)(Fixed BIOS 00.63)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.61, 00.62)(Fixed BIOS 00.63)
 
 -Component Video Memory Test: Failed *Secure boot enabled* Passed with Secure boot disabled. Test passes when video card is removed. (BIOS 00.57, 00.58)(VIDEO CARD ISSUE)(Fixed 5.8.2.0)
@@ -3193,7 +3193,7 @@ Steamer 339B Win 8
 Stonehenge 807D WIN8
 ------------------------------------
 
--HPWMI error "Failed
+-HPWMI error "Failed 
 Error: e_BIOS_INVALID_COMMAND_TYPE" (BIOS 1.51)
 
 
@@ -3308,7 +3308,7 @@ Toledo 805D WIN8
 -Video Memory Check: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.63)
 
 -Video Palette: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.63)
-
+ 
 -USB test: Error message "This test is currently not available on this system." *Secure boot enabled.*Passed with Secure boot disabled.* (BIOS 00.62)(Fixed BIOS 00.63)
 
 -Component Video Memory Check: Failed *Secure boot enabled* Passes with Secure boot disabled. (BIOS 00.54, 00.55, 00.56, 00.57, 00.58, 00.59, 00.60)(Video Card Issue)(Fixed 5.8.2.0)
@@ -3350,11 +3350,11 @@ Vespoli 2AF1 WIN 8
 Vidor 8027 Win 7
 -------------------------------
 
--Factory Mode: Test crashes after Audio Test completes.(BIOS 2.58, 2.59)
+-Factory Mode: Test crashes after Audio Test completes.(BIOS 2.58, 2.59) 
 
 -HPWMI Failed Windows Error "A problem caused the program to stop working correctly."(BIOS 2.52, 2.53, 2.55, 2.56, 2.57, 2.58, 2.59)
 
--HPWMI error "Failed
+-HPWMI error "Failed 
 Error ""e_BIOS_INVALID_COMMAND_TYPE" (BIOS 00.40, 00.41, 2.50, 2.51)(Fixed 2.52)
 
 -Factory Mode: Test crashes when ODD test starts. (BIOS 2.56, 2.57)
@@ -3382,7 +3382,7 @@ Validating EFI_MP_SERVICES2_PROTOCOL (PI)
 
 (BIOS 80.01, 2.03, A0.00, A0.01, A0.02, A0.03, A0.04)
 
--UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.00)(Fixed with Feature Byte)
+-UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.00)(Fixed with Feature Byte) 
 
 -HPWMI Failed Windows Error "A problem caused the program to stop working correctly." (BIOS 00.19)(Fixed BIOS 00.20)(New Machine)
 
@@ -3402,7 +3402,7 @@ Wasp 225E WIN 7
         EFI_MP_SERVICES_PROTOCOL                                      - FAILED (Protocol Error)
 	(BIOS 00.20, 2.00, 2.01, 2.03, 2.04, 2.05, 2.07, 2.09, 2.10, 2.11, 2.13, 2.15, 2.17, 2.21, 2.22)
 
--Component Keyboard Test: With Wireless KB and Mouse All lock keys (Caps Lock, Scroll Lock, Num Lock) cause Keyboard test delay. Test freezes for 20-30 seconds and then continues. *Secure boot enabled/disabled* No issue with wired KB and Mouse (BIOS 2.01, 2.03, 2.04, 2.05, 2.07, 2.09)(Fixed 2.10)
+-Component Keyboard Test: With Wireless KB and Mouse All lock keys (Caps Lock, Scroll Lock, Num Lock) cause Keyboard test delay. Test freezes for 20-30 seconds and then continues. *Secure boot enabled/disabled* No issue with wired KB and Mouse (BIOS 2.01, 2.03, 2.04, 2.05, 2.07, 2.09)(Fixed 2.10) 
 
 -BIOSCheck *Framework* FAILED (Protocol Error) Processor Context larger than expected.  Trying AMD Adjustment
 *** ERROR ***
@@ -3427,7 +3427,7 @@ EFI_MP_SERVICES_PROTOCOL (BIOS 00.10, 00.11, 00.12, 00.13, 00.14, 00.16, 00.18, 
 
 
 ------------------------------
-Wilier 805B WIN 8
+Wilier 805B WIN 8 
 ------------------------------
 
 -Factory Audio Playback Test: Speaker test no sound. (BIOS 00.56)(Fixed 00.57)
@@ -3445,7 +3445,7 @@ WuLai 1790 WIN 7
 
 -HPWMI Failed Windows Error "A problem caused the program to stop working correctly." (BIOS 1.64, 1.72)
 
--Factory mode : System powers off when Factory test is initiated. *Secure boot enabled.* Passed with Secure boot disabled. (BIOS 1.61, 1.64, 1.72)
+-Factory mode : System powers off when Factory test is initiated. *Secure boot enabled.* Passed with Secure boot disabled. (BIOS 1.61, 1.64, 1.72)  
 
 
 ----------------------------------
@@ -3481,7 +3481,7 @@ Validating EFI_MP_SERVICES2_PROTOCOL (PI)
 
         *** ERROR ***
         EFI_MP_SERVICES2_PROTOCOL.StartupAllAPs() has not signaled event in 3 seconds after all APs have completed.
-        EFI_MP_SERVICES2_PROTOCOL
+        EFI_MP_SERVICES2_PROTOCOL   
 (BIOS 80.01, 2.01, 2.03, A0.00, A0.03, A0.05)
 
 -UEFI Diagnostics shows white screen and crashes before starting through USB and HDD. System continues to boot to Windows. (BIOS A0.00, A0.03)(Fixed BIOS A0.05)
@@ -3501,7 +3501,7 @@ Validating EFI_MP_SERVICES2_PROTOCOL (PI)
 Zeus 192F WIN 8
 --------------------------
 
--Component Webcam Test Connection Test: Not Available. (BIOS 1.41)
+-Component Webcam Test Connection Test: Not Available. (BIOS 1.41) 
 
 -HPWMI Failed Windows Error "A problem caused the program to stop working correctly." (BIOS 1.10, 1.11, 81.12, 1.12, 1.13, 81.14, 1.30, 1.31, 1.41)
 
@@ -3509,7 +3509,7 @@ Zeus 192F WIN 8
 
 
 ------------------------
-Zion 212B Win 7
+Zion 212B Win 7 
 ------------------------
 
 -Latency observed in all tests when run through USB 2.0 key. (BIOS 00.31, 00.32, 00.33, 00.51, 00.52, 00.54, 00.55, 00.58, 00.59, 00.61, 00.90, 00.96, 00.98, 1.03, 1.06, 1.09, 1.12, 1.15, 1.23, 1.54, 1.62) USB 3.0 Key does not experience this issue.
@@ -3546,3 +3546,4 @@ Zion 212B Win 7
 
 -Component Audio Record Test: Lists two External mic (Front) and a Line In. There are only two physical inputs on machine. Both External Mic (Front) tests require user to select Continue from options to run test. Both top and bottom pass External Mic (Front) options pass if connected to either Line in or External Mic. (BIOS 00.52)
 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

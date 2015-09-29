@@ -22,7 +22,7 @@ namespace ConvertIssues
             }
             else
             {
-                origIssues = GetIssues("originalissues.txt");
+                origIssues = GetIssues("issues.txt");
             }
             ParseText();
             ExportJson();
